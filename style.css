@@ -1,0 +1,49 @@
+header {
+    width: 100vw;
+    height: 100px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: #111111;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+
+    display: flex;
+    gap: 40px;
+}
+
+li {
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+    cursor: pointer;
+
+    transition: color .2s;
+}
+li:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#underline {
+    height: 2px;
+
+    position: absolute;
+    top: 80px;
+
+    background-color: white;
+
+    transition: width .4s, left .4s;
+}
